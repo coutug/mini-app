@@ -6,3 +6,4 @@ RUN apk add --no-cache --update nmap-ncat
 # and set permission to execute.
 COPY hello.sh .
 RUN chmod +x hello.sh
+CMD ["./hello.sh"]
