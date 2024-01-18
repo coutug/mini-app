@@ -1,5 +1,5 @@
 #!/bin/sh
-RESPONSE="Hello world!"
+RESPONSE="Hello Alice!"
 while true; do
   printf "HTTP/1.1 200 OK\n\n$RESPONSE\n" | ncat -lp 8000
 done
