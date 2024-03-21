@@ -1,5 +1,8 @@
 #!/bin/sh
-RESPONSE="Hello Alice!"
+# RESPONSE="hello Bob"
+# PORT=3000
+
+echo "Mini-app started!"
 while true; do
-  printf "HTTP/1.1 200 OK\n\n$RESPONSE\n" | ncat -lp 8000
+  printf "HTTP/1.1 200 OK\n\n$RESPONSE\n" | ncat -lp $PORT
 done
