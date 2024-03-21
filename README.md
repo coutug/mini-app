@@ -1,5 +1,5 @@
 # mini-app
-mini app to test with k8s and releases
+Mini app to test with k8s and releases
 
 set those as env variables:
 
