@@ -3,7 +3,7 @@ Mini app to test with k8s and releases
 
 ## Usage
 
-Set those as env variables:
+Set env variables:
 
 **RESPONSE**: message sent back when contacting the app
 
