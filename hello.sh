@@ -1,6 +1,4 @@
 #!/bin/sh
-# RESPONSE="hello Bob"
-# PORT=3000
 
 echo "Mini-app started!"
 while true; do
